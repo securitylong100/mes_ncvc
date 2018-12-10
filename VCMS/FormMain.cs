@@ -379,8 +379,10 @@ namespace Com.Nidec.Mes.VCMS
 
         private void production_controller_btn_Click(object sender, EventArgs e)
         {
-            ProductionControllerForm fd = new ProductionControllerForm();
-            fd.ShowDialog();
+            //ProductionControllerForm fd = new ProductionControllerForm();
+            ////fd.ShowDialog();
+            ProductionControllerNCVCForm a = new ProductionControllerNCVCForm();
+            a.ShowDialog();
         }
 
         private void Unit_btn_Click(object sender, EventArgs e)

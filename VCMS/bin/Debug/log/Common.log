@@ -53,3 +53,42 @@ Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates uniqu
 2018-05-21 10:38:31,972 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.DetailPositionForm] [mmci00006]No data found!
 2018-05-21 11:28:01,524 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 11:28:01
 2018-05-24 13:57:02,247 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-24 13:57:02
+2018-12-10 08:28:39,430 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 08:28:39
+2018-12-10 08:29:01,203 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 8:29:01 AM
+2018-12-10 09:06:35,877 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 09:06:35
+2018-12-10 09:06:36,725 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2018-12-10 09:06:37,907 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-10 09:06:37
+2018-12-10 09:06:43,632 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 09:06:43
+2018-12-10 09:06:48,958 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 9:06:48 AM
+2018-12-10 09:19:29,101 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 09:19:29
+2018-12-10 09:19:33,918 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 9:19:33 AM
+2018-12-10 09:20:51,625 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 09:20:51
+2018-12-10 09:21:00,863 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 9:21:00 AM
+2018-12-10 09:25:28,090 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 09:25:28
+2018-12-10 09:25:41,164 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 9:25:41 AM
+2018-12-10 16:35:47,385 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 16:35:47
+2018-12-10 16:35:51,543 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo'..
+System.InvalidCastException: Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo'.
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.GetLineProNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\GetLineProNCVCDao.cs:line 17
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetLineProNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\GetLineProNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NCVP_GIT\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-10 16:35:56,747 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 4:35:56 PM
+2018-12-10 16:42:42,708 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 16:42:42
+2018-12-10 16:42:55,205 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42601: syntax error at or near ",".
+Npgsql.PostgresException (0x80004005): 42601: syntax error at or near ","
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\NCVP_GIT\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateNCVCDao.cs:line 47
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NCVP_GIT\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-10 16:42:58,509 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 4:42:58 PM
+2018-12-10 16:44:37,324 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 16:44:37
+2018-12-10 16:45:01,534 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 4:45:01 PM

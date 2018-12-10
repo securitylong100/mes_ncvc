@@ -49,7 +49,7 @@ namespace Com.Nidec.Mes.VCMS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=192.168.193.4;Port=5432;UserId=pqm;Password=dbuser;Database=mesdb;;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=192.168.145.12;Port=5432;UserId=pqm;Password=dbuser;Database=mesdb;;")]
         public string CONNECTION_STRING {
             get {
                 return ((string)(this["CONNECTION_STRING"]));
