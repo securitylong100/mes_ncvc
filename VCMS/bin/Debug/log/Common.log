@@ -1,0 +1,55 @@
+2018-05-21 08:48:18,319 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:48:18
+2018-05-21 08:49:41,375 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : User Role].[LoginUser : Administrator] Start.
+2018-05-21 08:49:46,372 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : User Role].[LoginUser : Administrator] End.
+2018-05-21 08:49:47,758 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Role Master].[LoginUser : Administrator] Start.
+2018-05-21 08:49:50,995 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Role Master].[LoginUser : Administrator] End.
+2018-05-21 08:49:52,139 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] Start.
+2018-05-21 08:49:55,801 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] End.
+2018-05-21 08:49:57,137 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Role Authority Control].[LoginUser : Administrator] Start.
+2018-05-21 08:50:29,591 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Role Authority Control].[LoginUser : Administrator] End.
+2018-05-21 08:50:30,683 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 08:50:30
+2018-05-21 08:50:37,361 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:50:37
+2018-05-21 08:50:47,802 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 08:50:47
+2018-05-21 08:51:01,149 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:51:01
+2018-05-21 08:51:09,438 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] Start.
+2018-05-21 08:51:35,319 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] End.
+2018-05-21 08:51:36,104 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 08:51:36
+2018-05-21 08:52:36,547 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:52:36
+2018-05-21 08:52:51,308 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] Start.
+2018-05-21 08:53:03,301 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] End.
+2018-05-21 08:53:04,087 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 08:53:04
+2018-05-21 08:54:13,299 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:54:13
+2018-05-21 08:54:29,487 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Role Authority Control].[LoginUser : Administrator] Start.
+2018-05-21 08:54:31,769 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Role Authority Control].[LoginUser : Administrator] End.
+2018-05-21 08:54:35,343 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] Start.
+2018-05-21 08:55:08,937 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Authority Control Master].[LoginUser : Administrator] End.
+2018-05-21 08:55:11,127 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 08:55:11
+2018-05-21 08:55:18,821 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 08:55:18
+2018-05-21 09:46:12,972 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.AssetForm] [mmci00006]No data found!
+2018-05-21 09:48:19,995 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.AddAssetForm] [mmce00001]Record is already registered
+2018-05-21 09:48:43,340 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.AddAssetForm] [mmce00001]Record is already registered
+2018-05-21 09:57:30,802 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 09:57:30
+2018-05-21 10:14:12,980 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 10:14:12
+2018-05-21 10:26:58,351 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]23505: duplicate key value violates unique constraint "t_warehouse_main_history_pkc".
+Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "t_warehouse_main_history_pkc"
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryInternal()
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 40
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.AddWareHouseHistoryMainDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NIDEC MES\common_basic\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\Account-WhDao\WareHouseMainDao\AddWareHouseHistoryMainDao.cs:line 55
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.AddWareHouseHistoryMainCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NIDEC MES\common_basic\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\Account-WhCbm\WareHouseMainCbm\AddWareHouseHistoryMainCbm.cs:line 23
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-05-21 10:27:07,117 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 10:27:07
+2018-05-21 10:27:13,729 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 10:27:13
+2018-05-21 10:27:14,168 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2018-05-21 10:27:14,653 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 10:27:14
+2018-05-21 10:27:15,549 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 10:27:15
+2018-05-21 10:30:06,091 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-21 10:30:06
+2018-05-21 10:38:16,365 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.DetailPositionForm] [mmci00006]No data found!
+2018-05-21 10:38:31,972 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.DetailPositionForm] [mmci00006]No data found!
+2018-05-21 11:28:01,524 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-05-21 11:28:01
+2018-05-24 13:57:02,247 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-05-24 13:57:02
