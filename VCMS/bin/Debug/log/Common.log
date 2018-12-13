@@ -92,3 +92,116 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near ","
 2018-12-10 16:42:58,509 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 4:42:58 PM
 2018-12-10 16:44:37,324 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-10 16:44:37
 2018-12-10 16:45:01,534 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/10/2018 4:45:01 PM
+2018-12-11 07:53:52,065 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 07:53:52
+2018-12-11 07:54:01,931 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 7:54:01 AM
+2018-12-11 07:54:53,868 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 07:54:53
+2018-12-11 07:56:06,130 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 7:56:06 AM
+2018-12-11 08:00:35,366 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:00:35
+2018-12-11 08:01:41,450 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:01:41 AM
+2018-12-11 08:02:50,765 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:02:50
+2018-12-11 08:03:51,284 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:03:51 AM
+2018-12-11 08:05:42,778 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:05:42
+2018-12-11 08:06:05,607 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:06:05 AM
+2018-12-11 08:08:04,369 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:08:04
+2018-12-11 08:08:32,285 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:08:32 AM
+2018-12-11 08:12:47,223 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:12:47
+2018-12-11 08:13:08,419 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:13:08 AM
+2018-12-11 08:13:40,246 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:13:40
+2018-12-11 08:14:57,810 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:14:57 AM
+2018-12-11 08:28:52,976 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:28:52
+2018-12-11 08:29:03,107 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 8:29:03 AM
+2018-12-11 08:30:15,734 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:30:15
+2018-12-11 08:30:53,061 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 08:30:53
+2018-12-11 09:31:23,444 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:31:23
+2018-12-11 09:31:30,144 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 09:31:41,719 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 09:31:49,183 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:31:49 AM
+2018-12-11 09:32:44,264 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:32:44
+2018-12-11 09:32:53,439 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 09:33:40,736 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 09:39:07,048 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:39:07
+2018-12-11 09:39:14,628 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:39:14 AM
+2018-12-11 09:40:36,055 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:40:36
+2018-12-11 09:41:02,930 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:41:02 AM
+2018-12-11 09:41:43,769 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:41:43
+2018-12-11 09:42:39,744 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:42:38 AM
+2018-12-11 09:44:19,357 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:44:19
+2018-12-11 09:45:04,437 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:45:04
+2018-12-11 09:45:19,591 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:45:19 AM
+2018-12-11 09:48:11,903 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:48:11
+2018-12-11 09:48:37,423 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:48:37 AM
+2018-12-11 09:53:07,561 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:53:07
+2018-12-11 09:53:14,507 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:53:14 AM
+2018-12-11 09:53:57,196 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 09:53:57
+2018-12-11 09:54:07,103 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 9:54:07 AM
+2018-12-11 10:37:51,183 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 10:37:51
+2018-12-11 10:38:07,941 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 10:38:07 AM
+2018-12-11 10:41:56,430 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 10:41:56
+2018-12-11 10:46:41,141 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 10:46:41
+2018-12-11 10:46:59,780 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 10:47:06,461 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 10:47:18,423 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 10:47:18 AM
+2018-12-11 10:57:05,269 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 10:57:05
+2018-12-11 12:57:52,823 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 12:57:52
+2018-12-11 12:58:06,301 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo'..
+System.InvalidCastException: Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo'.
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByHourNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByHourNCVCDao.cs:line 17
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByHourNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByHourNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NCVP_GIT\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-11 12:58:15,178 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 12:58:15 PM
+2018-12-11 12:58:44,673 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 12:58:44
+2018-12-11 12:58:59,407 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 12:59:03,810 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 12:59:03 PM
+2018-12-11 13:00:31,869 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 13:00:31
+2018-12-11 13:00:46,303 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 1:00:46 PM
+2018-12-11 13:11:17,211 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 13:11:17
+2018-12-11 13:12:36,540 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 13:12:36
+2018-12-11 14:09:26,065 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:09:26
+2018-12-11 14:09:34,971 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo'..
+System.InvalidCastException: Unable to cast object of type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerNCVCVo' to type 'Com.Nidec.Mes.Common.Basic.MachineMaintenance.Vo.ProductionControllerVo'.
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProChartAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProChartAllLineNCVCDao.cs:line 17
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProChartAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProChartAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NCVP_GIT\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-11 14:09:37,101 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:09:37 PM
+2018-12-11 14:17:02,405 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:17:02
+2018-12-11 14:17:14,642 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:17:14 PM
+2018-12-11 14:17:30,584 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:17:30
+2018-12-11 14:17:36,936 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 14:17:40,989 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:17:40 PM
+2018-12-11 14:18:22,930 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:18:22
+2018-12-11 14:18:30,759 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:18:30 PM
+2018-12-11 14:19:01,470 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:19:01
+2018-12-11 14:19:07,850 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-11 14:19:54,639 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:19:54 PM
+2018-12-11 14:29:46,947 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:29:46
+2018-12-11 14:39:59,404 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:39:59 PM
+2018-12-11 14:43:48,218 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:43:48
+2018-12-11 14:44:26,234 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:44:26 PM
+2018-12-11 14:44:38,221 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-11 14:44:38
+2018-12-11 14:45:20,466 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/11/2018 2:45:20 PM
+2018-12-13 08:21:21,942 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:21:21
+2018-12-13 08:24:42,852 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:24:42 AM
+2018-12-13 08:32:46,489 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:32:46
+2018-12-13 08:33:06,044 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:33:06 AM
+2018-12-13 08:37:04,066 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:37:04
+2018-12-13 08:37:48,972 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:37:48 AM
+2018-12-13 08:38:18,153 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:38:18
+2018-12-13 08:39:05,220 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:39:05 AM
+2018-12-13 08:40:10,330 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:40:10
+2018-12-13 08:40:45,304 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:40:45 AM
+2018-12-13 08:42:07,767 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:42:07
+2018-12-13 08:42:48,072 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:42:48 AM
+2018-12-13 08:43:46,372 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:43:46
+2018-12-13 08:44:19,035 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:44:19 AM
+2018-12-13 08:44:58,248 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:44:58
+2018-12-13 08:46:23,111 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:46:23 AM
+2018-12-13 08:56:55,099 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 08:56:55
+2018-12-13 08:57:55,091 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 8:57:55 AM
+2018-12-13 09:02:58,736 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 09:02:58
+2018-12-13 09:03:18,647 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:03:18 AM
+2018-12-13 09:03:34,399 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 09:03:34
+2018-12-13 09:03:49,850 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:03:49 AM
+2018-12-13 09:04:26,462 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 09:04:26
+2018-12-13 09:04:41,436 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:04:41 AM
+2018-12-13 09:04:53,984 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 09:04:53
+2018-12-13 09:05:30,330 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:05:30 AM

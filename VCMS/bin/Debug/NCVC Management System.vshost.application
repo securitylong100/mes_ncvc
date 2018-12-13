@@ -14,14 +14,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="NCVC Management System.exe.manifest" size="19934">
+    <dependentAssembly dependencyType="install" codebase="NCVC Management System.exe.manifest" size="19935">
       <assemblyIdentity name="NCVC Management System.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3qaUJrhQffUveInuhpGAFNheF/VnKSE1F+mnqsDzTww=</dsig:DigestValue>
+        <dsig:DigestValue>hb+E1XIiAv5LGmSJ3LCrKtfs0Xo7WoCSbBOn4Ud2G5s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
