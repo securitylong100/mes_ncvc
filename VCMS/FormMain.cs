@@ -402,5 +402,11 @@ namespace Com.Nidec.Mes.VCMS
             OvenBarcodeForm ovenbarcodefrom = new OvenBarcodeForm();
             ovenbarcodefrom.ShowDialog();
         }
+
+        private void CauseMC_btn_Click(object sender, EventArgs e)
+        {
+            CauseMasterForm cause = new CauseMasterForm();
+            cause.ShowDialog();
+        }
     }
 }

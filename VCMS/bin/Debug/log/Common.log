@@ -205,3 +205,157 @@ System.InvalidCastException: Unable to cast object of type 'Com.Nidec.Mes.Common
 2018-12-13 09:04:41,436 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:04:41 AM
 2018-12-13 09:04:53,984 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 09:04:53
 2018-12-13 09:05:30,330 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 9:05:30 AM
+2018-12-13 13:59:02,083 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 13:59:02
+2018-12-13 14:17:13,800 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 14:17:13
+2018-12-13 14:19:09,738 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 14:19:09
+2018-12-13 14:19:46,476 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 14:19:46
+2018-12-13 14:20:04,136 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]23502: null value in column "process_id" violates not-null constraint.
+Npgsql.PostgresException (0x80004005): 23502: null value in column "process_id" violates not-null constraint
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryInternal()
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\NIDEC_MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 40
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.AddReportDownTimeDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ReportDownTimeDao\AddReportDownTimeDao.cs:line 47
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.AddReportDownTimeCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ReportDownTimeCbm\AddReportDownTimeCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC_MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-13 14:20:11,149 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 14:20:11
+2018-12-13 14:21:23,193 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 14:21:23
+2018-12-13 14:24:47,409 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 14:24:47
+2018-12-13 14:26:09,635 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 14:26:09
+2018-12-13 15:01:35,711 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 15:01:35
+2018-12-13 15:02:12,108 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 15:02:12
+2018-12-13 15:03:00,326 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 15:03:00
+2018-12-13 15:37:29,622 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 15:37:29
+2018-12-13 16:11:36,735 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/13 16:11:36
+2018-12-13 16:16:50,588 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/13 16:16:50
+2018-12-14 11:19:59,869 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 11:19:59
+2018-12-14 11:20:10,206 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] Start.
+2018-12-14 11:20:24,376 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:20:43,135 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:20:43,783 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] End.
+2018-12-14 11:20:44,911 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Category].[LoginUser : Administrator] Start.
+2018-12-14 11:20:46,476 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Category].[LoginUser : Administrator] Start.
+2018-12-14 11:21:45,492 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Category].[LoginUser : Administrator] End.
+2018-12-14 11:21:45,498 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveCategoryForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:21:56,932 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Update Defective Category].[LoginUser : Administrator] Start.
+2018-12-14 11:21:58,932 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Update Defective Category].[LoginUser : Administrator] End.
+2018-12-14 11:22:23,390 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Defective Category].[LoginUser : Administrator] End.
+2018-12-14 11:22:24,741 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] Start.
+2018-12-14 11:22:26,618 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:22:37,788 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:22:41,511 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:22:45,635 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00006]No data found!
+2018-12-14 11:23:24,249 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:23:41,622 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 0]
+2018-12-14 11:23:44,501 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 0]
+2018-12-14 11:24:11,448 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:32:11,096 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 11:32:11
+2018-12-14 11:32:15,775 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] Start.
+2018-12-14 11:32:17,903 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:33:28,049 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:34:15,237 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:34:34,962 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:34:34,965 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:35:24,256 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:35:38,678 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:35:39,949 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:35:39,955 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:35:42,245 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:35:50,387 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:35:51,028 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:35:51,032 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:35:56,818 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:36:02,875 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:36:07,311 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:36:07,317 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:36:13,104 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:36:21,091 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:36:21,681 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:36:21,684 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:36:28,112 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:36:36,882 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:36:37,448 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:36:37,452 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:36:41,462 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:36:45,481 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:36:46,081 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:36:46,084 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:36:50,352 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:37:00,175 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:37:00,763 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:37:00,766 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:37:05,070 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] Start.
+2018-12-14 11:37:14,064 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.AddDefectiveReasonForm] [mmce00001]Record is already registered
+[Display Order : 1]
+2018-12-14 11:37:14,594 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Add Defective Reason].[LoginUser : Administrator] End.
+2018-12-14 11:37:14,597 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.DefectiveReasonForm] [mmci00001]Record has been added successfully.
+2018-12-14 11:37:22,520 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] End.
+2018-12-14 11:42:10,364 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "m_cause" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "m_cause" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Dao.GetCauseDao.Execute(TransactionContext trxContext, ValueObject vo)
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Cbm.GetCauseCbm.Execute(TransactionContext trxContext, ValueObject vo)
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-14 11:42:26,231 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 11:42:26
+2018-12-14 11:42:35,031 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Type List].[LoginUser : Administrator] Start.
+2018-12-14 11:42:37,055 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.ProdutionWorkContentForm] [mmce00002]Please input [ProdutionWorkContentType]
+2018-12-14 11:43:38,040 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.ProdutionWorkContentForm] [mmce00002]Please input [ProdutionWorkContentType]
+2018-12-14 11:44:00,809 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Edit].[LoginUser : Administrator] Start.
+2018-12-14 11:44:23,554 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Prodution Work Content Edit].[LoginUser : Administrator] End.
+2018-12-14 11:44:24,602 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Prodution Work Content Type List].[LoginUser : Administrator] End.
+2018-12-14 11:44:25,549 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Type List].[LoginUser : Administrator] Start.
+2018-12-14 11:44:29,090 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Type Edit].[LoginUser : Administrator] Start.
+2018-12-14 11:44:30,608 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Prodution Work Content Type Edit].[LoginUser : Administrator] End.
+2018-12-14 11:44:31,524 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Type Edit].[LoginUser : Administrator] Start.
+2018-12-14 11:44:42,921 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]23505: duplicate key value violates unique constraint "m_production_work_content_type_pkc".
+Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "m_production_work_content_type_pkc"
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryInternal()
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteNonQuery(DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 40
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Dao.AddProdutionWorkContentTypeDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\fw\NidecMES\GlobalMasterMaintenance\Dao\ProdutionWorkContentType\AddProdutionWorkContentTypeDao.cs:line 33
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Cbm.AddProdutionWorkContentTypeCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\fw\NidecMES\GlobalMasterMaintenance\Cbm\ProdutionWorkContentType\AddProdutionWorkContentTypeCbm.cs:line 22
+   at Com.Nidec.Mes.GlobalMasterMaintenance.MasterMntCommonCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\fw\NidecMES\GlobalMasterMaintenance\Cbm\MasterMntCommonCbm.cs:line 18
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-14 11:44:46,287 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 11:44:46
+2018-12-14 13:23:01,484 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 13:23:01
+2018-12-14 13:33:26,271 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Machine Master].[LoginUser : Administrator] Start.
+2018-12-14 13:33:31,171 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Machine Master].[LoginUser : Administrator] End.
+2018-12-14 13:34:32,024 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Prodution Work Content Type List].[LoginUser : Administrator] Start.
+2018-12-14 13:34:33,908 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.ProdutionWorkContentForm] [mmce00002]Please input [ProdutionWorkContentType]
+2018-12-14 13:34:43,282 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Prodution Work Content Type List].[LoginUser : Administrator] End.
+2018-12-14 13:34:45,129 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Category].[LoginUser : Administrator] Start.
+2018-12-14 13:34:48,265 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Defective Category].[LoginUser : Administrator] End.
+2018-12-14 13:34:49,099 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00004][Void FormCommonMaster_Load(System.Object, System.EventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] Start.
+2018-12-14 13:34:52,137 INFO  [Com.Nidec.Mes.GlobalMasterMaintenance.FormCommonMaster] [mmci00005][Void FormCommonMaster_FormClosed(System.Object, System.Windows.Forms.FormClosedEventArgs)].[FormName : Defective Reason Master].[LoginUser : Administrator] End.
+2018-12-14 13:37:21,398 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 13:37:21
