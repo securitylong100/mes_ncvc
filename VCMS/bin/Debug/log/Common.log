@@ -445,3 +445,5 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at end of input
 2018-12-13 17:05:32,349 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 5:05:32 PM
 2018-12-13 17:06:15,681 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-13 17:06:15
 2018-12-13 17:07:34,279 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 5:07:34 PM
+2018-12-14 11:30:06,086 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-14 11:30:06
+2018-12-14 11:30:45,786 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/14/2018 11:30:45 AM
