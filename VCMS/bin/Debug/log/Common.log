@@ -488,3 +488,56 @@ Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_fc" does not 
    at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetModelProNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\GetModelProNCVCCbm.cs:line 24
    at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
 2018-12-14 17:04:33,171 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 17:04:33
+2018-12-17 13:51:36,282 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-17 13:51:36
+2018-12-17 13:51:40,188 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ncvp_pdc_fc" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_fc" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.GetModelProNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\GetModelProNCVCDao.cs:line 30
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetModelProNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\GetModelProNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-17 13:51:48,728 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ncvp_pdc_fc" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_fc" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByHourNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByHourNCVCDao.cs:line 41
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByHourNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByHourNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-17 13:51:54,182 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-17 13:51:54
+2018-12-17 15:09:35,906 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-17 15:09:35
+2018-12-17 15:09:47,025 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ncvp_pdc_ca" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_ca" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NIDEC MES\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateAllLineNCVCDao.cs:line 40
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NIDEC MES\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-17 15:09:58,017 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-17 15:09:58
+2018-12-17 15:11:17,585 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-17 15:11:17
+2018-12-17 15:11:24,387 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-17 15:11:27,878 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-17 15:11:31,825 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-17 15:11:31

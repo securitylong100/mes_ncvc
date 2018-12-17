@@ -76,19 +76,19 @@
   <ItemGroup>
     <Reference Include="Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\fw\NidecMES\Dll\Framework.dll</HintPath>
+      <HintPath>..\..\..\fw\NidecMES\Dll\Framework.dll</HintPath>
     </Reference>
     <Reference Include="GlobalMasterMaintenance, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\fw\NidecMES\Dll\GlobalMasterMaintenance.dll</HintPath>
+      <HintPath>..\..\..\fw\NidecMES\Dll\GlobalMasterMaintenance.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.7.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\fw\NidecMES\Dll\log4net.dll</HintPath>
+      <HintPath>..\..\..\fw\NidecMES\Dll\log4net.dll</HintPath>
     </Reference>
     <Reference Include="MachineMaintenance, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\fw\NidecMES\Dll\MachineMaintenance.dll</HintPath>
+      <HintPath>..\..\..\fw\NidecMES\Dll\MachineMaintenance.dll</HintPath>
     </Reference>
     <Reference Include="npgsql, Version=3.1.9.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
