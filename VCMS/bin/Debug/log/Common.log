@@ -447,3 +447,44 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at end of input
 2018-12-13 17:07:34,279 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/13/2018 5:07:34 PM
 2018-12-14 11:30:06,086 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-14 11:30:06
 2018-12-14 11:30:45,786 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/14/2018 11:30:45 AM
+2018-12-14 14:54:08,205 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 14:54:08
+2018-12-14 14:54:42,080 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 14:54:42
+2018-12-14 15:03:48,958 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 15:03:48
+2018-12-14 15:03:53,340 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42703: column pw.line_machine_selection does not exist.
+Npgsql.PostgresException (0x80004005): 42703: column pw.line_machine_selection does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Dao.GetProcessWorkMasterMntDao.Execute(TransactionContext trxContext, ValueObject arg) in D:\GIT_HUB\NIDEC\fw\NidecMES\GlobalMasterMaintenance\Dao\ProcessWork\GetProcessWorkMasterMntDao.cs:line 71
+   at Com.Nidec.Mes.GlobalMasterMaintenance.Cbm.GetProcessWorkMasterMntCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\fw\NidecMES\GlobalMasterMaintenance\Cbm\ProcessWork\GetProcessWorkMasterMntCbm.cs:line 14
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-14 16:58:13,830 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 16:58:13
+2018-12-14 16:59:42,543 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 16:59:42
+2018-12-14 17:01:00,980 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 17:01:00
+2018-12-14 17:01:25,864 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 17:01:25
+2018-12-14 17:02:14,136 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 17:02:14
+2018-12-14 17:02:31,693 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 17:02:31
+2018-12-14 17:03:24,639 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/14 17:03:24
+2018-12-14 17:03:44,022 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ncvp_pdc_fc" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_fc" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.GetModelProNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\GetModelProNCVCDao.cs:line 30
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetModelProNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\GetModelProNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-14 17:04:33,171 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/14 17:04:33
