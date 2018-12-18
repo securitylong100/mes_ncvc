@@ -541,3 +541,88 @@ Npgsql.PostgresException (0x80004005): 42P01: relation "t_ncvp_pdc_ca" does not 
 2018-12-17 15:11:24,387 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
 2018-12-17 15:11:27,878 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
 2018-12-17 15:11:31,825 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-17 15:11:31
+2018-12-18 15:00:57,392 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:00:57
+2018-12-18 15:02:23,187 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:02:23 PM
+2018-12-18 15:17:01,280 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:17:01
+2018-12-18 15:17:17,911 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:17:21,684 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:17:24,725 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:17:24 PM
+2018-12-18 15:32:38,436 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:32:38
+2018-12-18 15:32:47,126 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42702: column reference "ca_input" is ambiguous.
+Npgsql.PostgresException (0x80004005): 42702: column reference "ca_input" is ambiguous
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateAllLineNCVCDao.cs:line 42
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-18 15:32:53,003 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:32:53 PM
+2018-12-18 15:33:03,746 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:33:03
+2018-12-18 15:33:11,936 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42702: column reference "ca_input" is ambiguous.
+Npgsql.PostgresException (0x80004005): 42702: column reference "ca_input" is ambiguous
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateAllLineNCVCDao.cs:line 42
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-18 15:33:13,538 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:33:13 PM
+2018-12-18 15:35:56,910 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:35:56
+2018-12-18 15:36:07,736 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42702: column reference "ca_input" is ambiguous.
+Npgsql.PostgresException (0x80004005): 42702: column reference "ca_input" is ambiguous
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateAllLineNCVCDao.cs:line 42
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-18 15:36:16,767 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:36:16 PM
+2018-12-18 15:41:09,648 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:41:09
+2018-12-18 15:41:15,842 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42703: column "ba_input" does not exist.
+Npgsql.PostgresException (0x80004005): 42703: column "ba_input" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.SearchMainProByDateAllLineNCVCDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\ProductionControllerNCVCDao\SearchMainProByDateAllLineNCVCDao.cs:line 42
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.SearchMainProByDateAllLineNCVCCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\NCVP_GIT\LONG\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\ProductionControllerNCVCCbm\SearchMainProByDateAllLineNCVCCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\NIDEC MES\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-18 15:41:19,607 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:41:19 PM
+2018-12-18 15:44:34,112 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:44:34
+2018-12-18 15:44:39,106 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:44:44,507 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:44:47,322 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:44:47 PM
+2018-12-18 15:50:25,975 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:50:25
+2018-12-18 15:50:26,375 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2018-12-18 15:50:27,552 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018-12-18 15:50:27
+2018-12-18 15:50:31,820 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-18 15:50:31
+2018-12-18 15:50:43,062 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:50:47,117 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2018-12-18 15:50:49,448 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/18/2018 3:50:49 PM
