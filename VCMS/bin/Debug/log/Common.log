@@ -667,3 +667,5 @@ Npgsql.PostgresException (0x80004005): 42703: column "ba_input" does not exist
 2018-12-19 10:25:27,101 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-19 10:25:27
 2018-12-19 10:27:07,498 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
 2018-12-19 10:32:58,312 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/19/2018 10:32:58 AM
+2018-12-19 11:09:44,781 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018-12-19 11:09:44
+2018-12-19 11:13:23,084 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/19/2018 11:13:23 AM
