@@ -168,6 +168,7 @@ D:\NIDEC\NCVC_MAIN\VCMS\bin\Debug\SAPConnector_Client.pdb
 D:\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\MachineMaintenance.resources.dll
 D:\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\SAPConnector_Client.resources.dll
+D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\VCMS.csprojResolveAssemblyReference.cache
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\Com.Nidec.Mes.VCMS.FormMain.resources
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\Com.Nidec.Mes.VCMS.Properties.Resources.resources
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\VCMS.csproj.GenerateResource.Cache
@@ -176,4 +177,3 @@ D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.exe.manifest
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.application
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.exe
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.pdb
-D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\VCMS.csprojResolveAssemblyReference.cache
