@@ -671,3 +671,21 @@ Npgsql.PostgresException (0x80004005): 42703: column "ba_input" does not exist
 2018-12-19 11:13:23,084 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 12/19/2018 11:13:23 AM
 2018-12-19 12:51:30,883 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/19 12:51:30
 2018-12-19 12:51:53,970 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/19 12:51:53
+2018-12-20 10:05:17,583 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 10:05:17
+2018-12-20 10:05:55,977 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 10:05:55
+2018-12-20 10:06:25,354 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 10:06:25
+2018-12-20 10:08:02,600 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 10:08:02
+2018-12-20 10:10:19,858 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 10:10:19
+2018-12-20 10:10:20,260 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00004]Please provide  valid input.
+2018-12-20 10:10:21,335 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 10:10:21
+2018-12-20 10:10:22,481 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 10:10:22
+2018-12-20 10:11:16,635 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 10:11:16
+2018-12-20 11:11:46,393 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 11:11:46
+2018-12-20 11:13:25,987 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 11:13:25
+2018-12-20 11:14:18,452 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 11:14:18
+2018-12-20 11:15:04,801 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 11:15:04
+2018-12-20 11:19:46,744 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 11:19:46
+2018-12-20 11:20:16,951 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 11:20:16
+2018-12-20 12:53:28,552 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 12:53:28
+2018-12-20 12:57:06,053 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/20 12:57:06
+2018-12-20 12:58:26,630 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/20 12:58:26
