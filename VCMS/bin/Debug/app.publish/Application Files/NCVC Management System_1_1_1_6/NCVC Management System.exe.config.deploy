@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="Com.Nidec.Mes.VCMS.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <userSettings>
+    <Com.Nidec.Mes.VCMS.Properties.Settings>
+        <setting name="APPLICATION_HEADER" serializeAs="String">
+            <value>NCVC MASTER MAINTENANCE</value>
+        </setting>
+        <setting name="ApplicationTypeName" serializeAs="String">
+            <value>Com.Nidec.Mes.VCMS.FormMain</value>
+        </setting>
+        <setting name="CONNECTION_STRING" serializeAs="String">
+            <value>Server=192.168.193.4;Port=5432;UserId=pqm;Password=dbuser;Database=mesdb;;</value>
+        </setting>
+        <setting name="AUTHENTIFICATE_FLAG" serializeAs="String">
+            <value>2</value>
+        </setting>
+        <setting name="SERVER_TIME_ZONE" serializeAs="String">
+            <value>Singapore Standard Time</value>
+        </setting>
+    </Com.Nidec.Mes.VCMS.Properties.Settings>
+  </userSettings>
+</configuration>
