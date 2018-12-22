@@ -408,5 +408,11 @@ namespace Com.Nidec.Mes.VCMS
             CauseMasterForm cause = new CauseMasterForm();
             cause.ShowDialog();
         }
+
+        private void ProcessW_btn_Click(object sender, EventArgs e)
+        {
+            ProcessWForm prw = new ProcessWForm();
+            prw.ShowDialog();
+        }
     }
 }

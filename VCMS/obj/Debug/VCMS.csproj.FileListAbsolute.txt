@@ -80,30 +80,15 @@ D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\NCVC Management System.exe.manifest
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\NCVC Management System.application
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\NCVC Management System.exe
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\NCVC Management System.pdb
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\Framework.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\GlobalMasterMaintenance.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\log4net.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\MachineMaintenance.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\npgsql.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\SAPConnector_Client.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\sapnco.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\sapnco_utils.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\Framework.pdb
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\GlobalMasterMaintenance.pdb
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\log4net.xml
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\MachineMaintenance.pdb
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\SAPConnector_Client.pdb
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ja-JP\Framework.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\Framework.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\Framework.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ca\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ja-JP\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\sq-AL\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-CHS\GlobalMasterMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi\MachineMaintenance.resources.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\MachineMaintenance.resources.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\SAPConnector_Client.resources.dll
@@ -177,3 +162,18 @@ D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.exe.manifest
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.application
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.exe
 D:\NIDEC\NCVC_MAIN\VCMS\obj\Debug\NCVC Management System.pdb
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\Framework.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\GlobalMasterMaintenance.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\Framework.pdb
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\GlobalMasterMaintenance.pdb
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ja-JP\Framework.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\Framework.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\Framework.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ca\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\ja-JP\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\sq-AL\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-CHS\GlobalMasterMaintenance.resources.dll
+D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\GlobalMasterMaintenance.resources.dll

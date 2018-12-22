@@ -83,6 +83,15 @@
             this.JigResponse_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.JigCause_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.oven_downtime = new System.Windows.Forms.TabPage();
+            this.groupBoxCommon4 = new Com.Nidec.Mes.Framework.GroupBoxCommon();
+            this.DefectiveCategory_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.DefectiveReason_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.CauseMC_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.Machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.groupBoxCommon5 = new Com.Nidec.Mes.Framework.GroupBoxCommon();
+            this.ProcessWorkContType_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.response_machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.ProWorkCont_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.ovenrange_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.labelCommon1 = new Com.Nidec.Mes.Framework.LabelCommon();
             this.SystemMaster_gpb = new Com.Nidec.Mes.Framework.GroupBoxCommon();
@@ -99,15 +108,7 @@
             this.factory_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.language_bt = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.local_user_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.groupBoxCommon4 = new Com.Nidec.Mes.Framework.GroupBoxCommon();
-            this.DefectiveCategory_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.DefectiveReason_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.Machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.groupBoxCommon5 = new Com.Nidec.Mes.Framework.GroupBoxCommon();
-            this.ProcessWorkContType_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.response_machine_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.ProWorkCont_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
-            this.CauseMC_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
+            this.ProcessW_btn = new Com.Nidec.Mes.Framework.ButtonCommon();
             this.Menu_gpb.SuspendLayout();
             this.groupBoxCommon7.SuspendLayout();
             this.groupBoxCommon1.SuspendLayout();
@@ -128,9 +129,9 @@
             this.Jig_Draw.SuspendLayout();
             this.groupBoxCommon6.SuspendLayout();
             this.oven_downtime.SuspendLayout();
-            this.SystemMaster_gpb.SuspendLayout();
             this.groupBoxCommon4.SuspendLayout();
             this.groupBoxCommon5.SuspendLayout();
+            this.SystemMaster_gpb.SuspendLayout();
             this.SuspendLayout();
             // 
             // Menu_gpb
@@ -553,7 +554,7 @@
             this.groupBoxCommon3.Font = new System.Drawing.Font("Arial", 9F);
             this.groupBoxCommon3.Location = new System.Drawing.Point(200, 6);
             this.groupBoxCommon3.Name = "groupBoxCommon3";
-            this.groupBoxCommon3.Size = new System.Drawing.Size(145, 122);
+            this.groupBoxCommon3.Size = new System.Drawing.Size(145, 126);
             this.groupBoxCommon3.TabIndex = 52;
             this.groupBoxCommon3.TabStop = false;
             this.groupBoxCommon3.Text = "Process";
@@ -568,7 +569,7 @@
             this.Process_btn.Name = "Process_btn";
             this.Process_btn.Size = new System.Drawing.Size(132, 44);
             this.Process_btn.TabIndex = 33;
-            this.Process_btn.Text = "Process Master";
+            this.Process_btn.Text = "Assy Master";
             this.Process_btn.UseVisualStyleBackColor = false;
             this.Process_btn.Click += new System.EventHandler(this.Process_btn_Click);
             // 
@@ -582,7 +583,7 @@
             this.ProcessModel_btn.Name = "ProcessModel_btn";
             this.ProcessModel_btn.Size = new System.Drawing.Size(132, 44);
             this.ProcessModel_btn.TabIndex = 34;
-            this.ProcessModel_btn.Text = "Process Model Master";
+            this.ProcessModel_btn.Text = "Assy Model Master";
             this.ProcessModel_btn.UseVisualStyleBackColor = false;
             this.ProcessModel_btn.Click += new System.EventHandler(this.ProcessModel_btn_Click);
             // 
@@ -879,6 +880,7 @@
             // 
             // oven_downtime
             // 
+            this.oven_downtime.Controls.Add(this.ProcessW_btn);
             this.oven_downtime.Controls.Add(this.groupBoxCommon4);
             this.oven_downtime.Controls.Add(this.groupBoxCommon5);
             this.oven_downtime.Controls.Add(this.ovenrange_btn);
@@ -888,6 +890,133 @@
             this.oven_downtime.TabIndex = 4;
             this.oven_downtime.Text = "Oven-Downtime";
             this.oven_downtime.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxCommon4
+            // 
+            this.groupBoxCommon4.ControlId = null;
+            this.groupBoxCommon4.Controls.Add(this.DefectiveCategory_btn);
+            this.groupBoxCommon4.Controls.Add(this.DefectiveReason_btn);
+            this.groupBoxCommon4.Controls.Add(this.CauseMC_btn);
+            this.groupBoxCommon4.Controls.Add(this.Machine_btn);
+            this.groupBoxCommon4.Font = new System.Drawing.Font("Arial", 9F);
+            this.groupBoxCommon4.Location = new System.Drawing.Point(188, 6);
+            this.groupBoxCommon4.Name = "groupBoxCommon4";
+            this.groupBoxCommon4.Size = new System.Drawing.Size(145, 219);
+            this.groupBoxCommon4.TabIndex = 56;
+            this.groupBoxCommon4.TabStop = false;
+            this.groupBoxCommon4.Text = "Cause";
+            // 
+            // DefectiveCategory_btn
+            // 
+            this.DefectiveCategory_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.DefectiveCategory_btn.ControlId = "mmob005";
+            this.DefectiveCategory_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.DefectiveCategory_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.DefectiveCategory_btn.Location = new System.Drawing.Point(6, 70);
+            this.DefectiveCategory_btn.Name = "DefectiveCategory_btn";
+            this.DefectiveCategory_btn.Size = new System.Drawing.Size(132, 44);
+            this.DefectiveCategory_btn.TabIndex = 54;
+            this.DefectiveCategory_btn.Text = "Defective Category";
+            this.DefectiveCategory_btn.UseVisualStyleBackColor = false;
+            this.DefectiveCategory_btn.Click += new System.EventHandler(this.DefectiveCategory_btn_Click);
+            // 
+            // DefectiveReason_btn
+            // 
+            this.DefectiveReason_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.DefectiveReason_btn.ControlId = "mmob004";
+            this.DefectiveReason_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.DefectiveReason_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.DefectiveReason_btn.Location = new System.Drawing.Point(6, 20);
+            this.DefectiveReason_btn.Name = "DefectiveReason_btn";
+            this.DefectiveReason_btn.Size = new System.Drawing.Size(132, 44);
+            this.DefectiveReason_btn.TabIndex = 47;
+            this.DefectiveReason_btn.Text = "Defective Reason";
+            this.DefectiveReason_btn.UseVisualStyleBackColor = false;
+            this.DefectiveReason_btn.Click += new System.EventHandler(this.DefectiveReason_btn_Click);
+            // 
+            // CauseMC_btn
+            // 
+            this.CauseMC_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.CauseMC_btn.ControlId = "mmob006";
+            this.CauseMC_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.CauseMC_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.CauseMC_btn.Location = new System.Drawing.Point(7, 170);
+            this.CauseMC_btn.Name = "CauseMC_btn";
+            this.CauseMC_btn.Size = new System.Drawing.Size(132, 44);
+            this.CauseMC_btn.TabIndex = 55;
+            this.CauseMC_btn.Text = "Cause Machine Master";
+            this.CauseMC_btn.UseVisualStyleBackColor = false;
+            this.CauseMC_btn.Click += new System.EventHandler(this.CauseMC_btn_Click);
+            // 
+            // Machine_btn
+            // 
+            this.Machine_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.Machine_btn.ControlId = "mmob006";
+            this.Machine_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.Machine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Machine_btn.Location = new System.Drawing.Point(6, 120);
+            this.Machine_btn.Name = "Machine_btn";
+            this.Machine_btn.Size = new System.Drawing.Size(132, 44);
+            this.Machine_btn.TabIndex = 55;
+            this.Machine_btn.Text = "Machine Master";
+            this.Machine_btn.UseVisualStyleBackColor = false;
+            this.Machine_btn.Click += new System.EventHandler(this.Machine_btn_Click);
+            // 
+            // groupBoxCommon5
+            // 
+            this.groupBoxCommon5.ControlId = null;
+            this.groupBoxCommon5.Controls.Add(this.ProcessWorkContType_btn);
+            this.groupBoxCommon5.Controls.Add(this.response_machine_btn);
+            this.groupBoxCommon5.Controls.Add(this.ProWorkCont_btn);
+            this.groupBoxCommon5.Font = new System.Drawing.Font("Arial", 9F);
+            this.groupBoxCommon5.Location = new System.Drawing.Point(359, 6);
+            this.groupBoxCommon5.Name = "groupBoxCommon5";
+            this.groupBoxCommon5.Size = new System.Drawing.Size(149, 171);
+            this.groupBoxCommon5.TabIndex = 57;
+            this.groupBoxCommon5.TabStop = false;
+            this.groupBoxCommon5.Text = "Response";
+            // 
+            // ProcessWorkContType_btn
+            // 
+            this.ProcessWorkContType_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ProcessWorkContType_btn.ControlId = "mmob007";
+            this.ProcessWorkContType_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ProcessWorkContType_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ProcessWorkContType_btn.Location = new System.Drawing.Point(7, 20);
+            this.ProcessWorkContType_btn.Name = "ProcessWorkContType_btn";
+            this.ProcessWorkContType_btn.Size = new System.Drawing.Size(132, 44);
+            this.ProcessWorkContType_btn.TabIndex = 38;
+            this.ProcessWorkContType_btn.Text = "Production Work Content Type";
+            this.ProcessWorkContType_btn.UseVisualStyleBackColor = false;
+            this.ProcessWorkContType_btn.Click += new System.EventHandler(this.ProductionWorkContType_btn_Click);
+            // 
+            // response_machine_btn
+            // 
+            this.response_machine_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.response_machine_btn.ControlId = "mmob009";
+            this.response_machine_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.response_machine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.response_machine_btn.Location = new System.Drawing.Point(7, 119);
+            this.response_machine_btn.Name = "response_machine_btn";
+            this.response_machine_btn.Size = new System.Drawing.Size(132, 46);
+            this.response_machine_btn.TabIndex = 53;
+            this.response_machine_btn.Text = "Response Machine";
+            this.response_machine_btn.UseVisualStyleBackColor = false;
+            this.response_machine_btn.Click += new System.EventHandler(this.response_machine_btn_Click);
+            // 
+            // ProWorkCont_btn
+            // 
+            this.ProWorkCont_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ProWorkCont_btn.ControlId = "mmob008";
+            this.ProWorkCont_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ProWorkCont_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ProWorkCont_btn.Location = new System.Drawing.Point(7, 70);
+            this.ProWorkCont_btn.Name = "ProWorkCont_btn";
+            this.ProWorkCont_btn.Size = new System.Drawing.Size(132, 44);
+            this.ProWorkCont_btn.TabIndex = 35;
+            this.ProWorkCont_btn.Text = "Production Work Content";
+            this.ProWorkCont_btn.UseVisualStyleBackColor = false;
+            this.ProWorkCont_btn.Click += new System.EventHandler(this.ProductionWorkContent_btn_Click);
             // 
             // ovenrange_btn
             // 
@@ -1130,132 +1259,19 @@
             this.local_user_btn.UseVisualStyleBackColor = false;
             this.local_user_btn.Click += new System.EventHandler(this.local_user_btn_Click);
             // 
-            // groupBoxCommon4
+            // ProcessW_btn
             // 
-            this.groupBoxCommon4.ControlId = null;
-            this.groupBoxCommon4.Controls.Add(this.DefectiveCategory_btn);
-            this.groupBoxCommon4.Controls.Add(this.DefectiveReason_btn);
-            this.groupBoxCommon4.Controls.Add(this.CauseMC_btn);
-            this.groupBoxCommon4.Controls.Add(this.Machine_btn);
-            this.groupBoxCommon4.Font = new System.Drawing.Font("Arial", 9F);
-            this.groupBoxCommon4.Location = new System.Drawing.Point(188, 6);
-            this.groupBoxCommon4.Name = "groupBoxCommon4";
-            this.groupBoxCommon4.Size = new System.Drawing.Size(145, 219);
-            this.groupBoxCommon4.TabIndex = 56;
-            this.groupBoxCommon4.TabStop = false;
-            this.groupBoxCommon4.Text = "Cause";
-            // 
-            // DefectiveCategory_btn
-            // 
-            this.DefectiveCategory_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.DefectiveCategory_btn.ControlId = "mmob005";
-            this.DefectiveCategory_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.DefectiveCategory_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DefectiveCategory_btn.Location = new System.Drawing.Point(6, 70);
-            this.DefectiveCategory_btn.Name = "DefectiveCategory_btn";
-            this.DefectiveCategory_btn.Size = new System.Drawing.Size(132, 44);
-            this.DefectiveCategory_btn.TabIndex = 54;
-            this.DefectiveCategory_btn.Text = "Defective Category";
-            this.DefectiveCategory_btn.UseVisualStyleBackColor = false;
-            this.DefectiveCategory_btn.Click += new System.EventHandler(this.DefectiveCategory_btn_Click);
-            // 
-            // DefectiveReason_btn
-            // 
-            this.DefectiveReason_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.DefectiveReason_btn.ControlId = "mmob004";
-            this.DefectiveReason_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.DefectiveReason_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DefectiveReason_btn.Location = new System.Drawing.Point(6, 20);
-            this.DefectiveReason_btn.Name = "DefectiveReason_btn";
-            this.DefectiveReason_btn.Size = new System.Drawing.Size(132, 44);
-            this.DefectiveReason_btn.TabIndex = 47;
-            this.DefectiveReason_btn.Text = "Defective Reason";
-            this.DefectiveReason_btn.UseVisualStyleBackColor = false;
-            this.DefectiveReason_btn.Click += new System.EventHandler(this.DefectiveReason_btn_Click);
-            // 
-            // Machine_btn
-            // 
-            this.Machine_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.Machine_btn.ControlId = "mmob006";
-            this.Machine_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.Machine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Machine_btn.Location = new System.Drawing.Point(6, 120);
-            this.Machine_btn.Name = "Machine_btn";
-            this.Machine_btn.Size = new System.Drawing.Size(132, 44);
-            this.Machine_btn.TabIndex = 55;
-            this.Machine_btn.Text = "Machine Master";
-            this.Machine_btn.UseVisualStyleBackColor = false;
-            this.Machine_btn.Click += new System.EventHandler(this.Machine_btn_Click);
-            // 
-            // groupBoxCommon5
-            // 
-            this.groupBoxCommon5.ControlId = null;
-            this.groupBoxCommon5.Controls.Add(this.ProcessWorkContType_btn);
-            this.groupBoxCommon5.Controls.Add(this.response_machine_btn);
-            this.groupBoxCommon5.Controls.Add(this.ProWorkCont_btn);
-            this.groupBoxCommon5.Font = new System.Drawing.Font("Arial", 9F);
-            this.groupBoxCommon5.Location = new System.Drawing.Point(359, 6);
-            this.groupBoxCommon5.Name = "groupBoxCommon5";
-            this.groupBoxCommon5.Size = new System.Drawing.Size(149, 171);
-            this.groupBoxCommon5.TabIndex = 57;
-            this.groupBoxCommon5.TabStop = false;
-            this.groupBoxCommon5.Text = "Response";
-            // 
-            // ProcessWorkContType_btn
-            // 
-            this.ProcessWorkContType_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ProcessWorkContType_btn.ControlId = "mmob007";
-            this.ProcessWorkContType_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ProcessWorkContType_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ProcessWorkContType_btn.Location = new System.Drawing.Point(7, 20);
-            this.ProcessWorkContType_btn.Name = "ProcessWorkContType_btn";
-            this.ProcessWorkContType_btn.Size = new System.Drawing.Size(132, 44);
-            this.ProcessWorkContType_btn.TabIndex = 38;
-            this.ProcessWorkContType_btn.Text = "Production Work Content Type";
-            this.ProcessWorkContType_btn.UseVisualStyleBackColor = false;
-            this.ProcessWorkContType_btn.Click += new System.EventHandler(this.ProductionWorkContType_btn_Click);
-            // 
-            // response_machine_btn
-            // 
-            this.response_machine_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.response_machine_btn.ControlId = "mmob009";
-            this.response_machine_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.response_machine_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.response_machine_btn.Location = new System.Drawing.Point(7, 119);
-            this.response_machine_btn.Name = "response_machine_btn";
-            this.response_machine_btn.Size = new System.Drawing.Size(132, 46);
-            this.response_machine_btn.TabIndex = 53;
-            this.response_machine_btn.Text = "Response Machine";
-            this.response_machine_btn.UseVisualStyleBackColor = false;
-            this.response_machine_btn.Click += new System.EventHandler(this.response_machine_btn_Click);
-            // 
-            // ProWorkCont_btn
-            // 
-            this.ProWorkCont_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.ProWorkCont_btn.ControlId = "mmob008";
-            this.ProWorkCont_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.ProWorkCont_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ProWorkCont_btn.Location = new System.Drawing.Point(7, 70);
-            this.ProWorkCont_btn.Name = "ProWorkCont_btn";
-            this.ProWorkCont_btn.Size = new System.Drawing.Size(132, 44);
-            this.ProWorkCont_btn.TabIndex = 35;
-            this.ProWorkCont_btn.Text = "Production Work Content";
-            this.ProWorkCont_btn.UseVisualStyleBackColor = false;
-            this.ProWorkCont_btn.Click += new System.EventHandler(this.ProductionWorkContent_btn_Click);
-            // 
-            // CauseMC_btn
-            // 
-            this.CauseMC_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.CauseMC_btn.ControlId = "mmob006";
-            this.CauseMC_btn.Font = new System.Drawing.Font("Arial", 9F);
-            this.CauseMC_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CauseMC_btn.Location = new System.Drawing.Point(7, 170);
-            this.CauseMC_btn.Name = "CauseMC_btn";
-            this.CauseMC_btn.Size = new System.Drawing.Size(132, 44);
-            this.CauseMC_btn.TabIndex = 55;
-            this.CauseMC_btn.Text = "Cause Machine Master";
-            this.CauseMC_btn.UseVisualStyleBackColor = false;
-            this.CauseMC_btn.Click += new System.EventHandler(this.CauseMC_btn_Click);
+            this.ProcessW_btn.BackColor = System.Drawing.SystemColors.Control;
+            this.ProcessW_btn.ControlId = "mmob029";
+            this.ProcessW_btn.Font = new System.Drawing.Font("Arial", 9F);
+            this.ProcessW_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.ProcessW_btn.Location = new System.Drawing.Point(15, 76);
+            this.ProcessW_btn.Name = "ProcessW_btn";
+            this.ProcessW_btn.Size = new System.Drawing.Size(132, 44);
+            this.ProcessW_btn.TabIndex = 58;
+            this.ProcessW_btn.Text = "Process Master";
+            this.ProcessW_btn.UseVisualStyleBackColor = false;
+            this.ProcessW_btn.Click += new System.EventHandler(this.ProcessW_btn_Click);
             // 
             // FormMain
             // 
@@ -1296,9 +1312,9 @@
             this.Jig_Draw.ResumeLayout(false);
             this.groupBoxCommon6.ResumeLayout(false);
             this.oven_downtime.ResumeLayout(false);
-            this.SystemMaster_gpb.ResumeLayout(false);
             this.groupBoxCommon4.ResumeLayout(false);
             this.groupBoxCommon5.ResumeLayout(false);
+            this.SystemMaster_gpb.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1384,5 +1400,6 @@
         private Framework.ButtonCommon ProcessWorkContType_btn;
         private Framework.ButtonCommon response_machine_btn;
         private Framework.ButtonCommon ProWorkCont_btn;
+        private Framework.ButtonCommon ProcessW_btn;
     }
 }
