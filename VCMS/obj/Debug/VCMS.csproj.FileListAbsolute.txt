@@ -90,7 +90,6 @@ D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\log4net.xml
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\MachineMaintenance.pdb
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\SAPConnector_Client.pdb
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi\MachineMaintenance.resources.dll
-D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\vi-VN\MachineMaintenance.resources.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\bin\Debug\zh-Hans\SAPConnector_Client.resources.dll
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\obj\Debug\VCMS.csprojResolveAssemblyReference.cache
 D:\GIT_HUB\NIDEC\NCVC_MAIN\VCMS\obj\Debug\Com.Nidec.Mes.VCMS.FormMain.resources

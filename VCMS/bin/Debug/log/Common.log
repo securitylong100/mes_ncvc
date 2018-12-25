@@ -1015,3 +1015,7 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "fromt_dow
 2018-12-22 16:56:45,044 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/22 16:56:45
 2018-12-22 16:58:52,121 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/22 16:58:52
 2018-12-22 16:59:29,206 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/22 16:59:29
+2018-12-25 09:06:09,146 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 09:06:09
+2018-12-25 09:07:41,946 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 09:07:41
+2018-12-25 09:08:28,792 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 09:08:28
+2018-12-25 09:08:52,007 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 09:08:52
