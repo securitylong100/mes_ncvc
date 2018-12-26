@@ -286,7 +286,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(593, 477);
+            this.tabPage1.Size = new System.Drawing.Size(652, 458);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Technical Maintenance";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -342,7 +342,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(593, 477);
+            this.tabPage2.Size = new System.Drawing.Size(652, 458);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Control Management";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -484,7 +484,7 @@
             this.Master.Location = new System.Drawing.Point(4, 24);
             this.Master.Name = "Master";
             this.Master.Padding = new System.Windows.Forms.Padding(3);
-            this.Master.Size = new System.Drawing.Size(547, 474);
+            this.Master.Size = new System.Drawing.Size(655, 457);
             this.Master.TabIndex = 0;
             this.Master.Text = "Master";
             this.Master.UseVisualStyleBackColor = true;
@@ -592,7 +592,7 @@
             this.ACC_WH.Location = new System.Drawing.Point(4, 24);
             this.ACC_WH.Name = "ACC_WH";
             this.ACC_WH.Padding = new System.Windows.Forms.Padding(3);
-            this.ACC_WH.Size = new System.Drawing.Size(547, 474);
+            this.ACC_WH.Size = new System.Drawing.Size(655, 457);
             this.ACC_WH.TabIndex = 1;
             this.ACC_WH.Text = "Account-WH";
             this.ACC_WH.UseVisualStyleBackColor = true;
@@ -764,7 +764,7 @@
             this.Work_Status.Location = new System.Drawing.Point(4, 24);
             this.Work_Status.Name = "Work_Status";
             this.Work_Status.Padding = new System.Windows.Forms.Padding(3);
-            this.Work_Status.Size = new System.Drawing.Size(547, 474);
+            this.Work_Status.Size = new System.Drawing.Size(655, 457);
             this.Work_Status.TabIndex = 2;
             this.Work_Status.Text = "Working Status";
             this.Work_Status.UseVisualStyleBackColor = true;
@@ -816,7 +816,7 @@
             this.Jig_Draw.Location = new System.Drawing.Point(4, 24);
             this.Jig_Draw.Name = "Jig_Draw";
             this.Jig_Draw.Padding = new System.Windows.Forms.Padding(3);
-            this.Jig_Draw.Size = new System.Drawing.Size(547, 474);
+            this.Jig_Draw.Size = new System.Drawing.Size(655, 457);
             this.Jig_Draw.TabIndex = 3;
             this.Jig_Draw.Text = "Jig - Draw";
             this.Jig_Draw.UseVisualStyleBackColor = true;
