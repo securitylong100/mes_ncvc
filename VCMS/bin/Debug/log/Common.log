@@ -1019,3 +1019,61 @@ Npgsql.PostgresException (0x80004005): 42601: syntax error at or near "fromt_dow
 2018-12-25 09:07:41,946 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 09:07:41
 2018-12-25 09:08:28,792 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 09:08:28
 2018-12-25 09:08:52,007 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 09:08:52
+2018-12-25 12:42:45,664 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 12:42:45
+2018-12-25 12:43:43,002 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 12:43:43
+2018-12-25 13:01:26,291 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:01:26
+2018-12-25 13:01:42,435 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:01:42
+2018-12-25 13:04:10,527 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:04:10
+2018-12-25 13:04:23,481 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:04:23
+2018-12-25 13:06:14,618 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:06:14
+2018-12-25 13:06:45,078 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:06:45
+2018-12-25 13:10:07,873 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:10:07
+2018-12-25 13:10:10,574 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:10:10
+2018-12-25 13:10:29,499 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:10:29
+2018-12-25 13:10:49,621 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:10:49
+2018-12-25 13:11:09,538 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:11:09
+2018-12-25 13:20:03,408 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:20:03
+2018-12-25 13:21:43,893 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:21:43
+2018-12-25 13:21:48,764 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:21:48
+2018-12-25 13:22:32,001 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:22:31
+2018-12-25 13:22:34,031 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:22:34
+2018-12-25 13:28:21,474 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/25 13:28:21
+2018-12-25 13:28:51,984 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ovenmachine" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ovenmachine" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.GetModelOvenDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\OvenBarcodeDao\OvenBarcodeDao\GetModelOvenDao.cs:line 30
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetModelOvenCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\OvenBarcodeCbm\OvenBarcodeCbm\GetModelOvenCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-25 13:29:12,610 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/25 13:29:12
+2018-12-26 08:49:11,263 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/26 08:49:11
+2018-12-26 08:49:51,703 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 08:49:51
+2018-12-26 09:01:53,574 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/26 09:01:53
+2018-12-26 09:01:58,782 ERROR [Com.Nidec.Mes.Framework.DefaultCbmInvoker] [ffce00003]42P01: relation "t_ovenmachine" does not exist.
+Npgsql.PostgresException (0x80004005): 42P01: relation "t_ovenmachine" does not exist
+   at Npgsql.NpgsqlConnector.DoReadMessage(DataRowLoadingMode dataRowLoadingMode, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessageWithPrepended(DataRowLoadingMode dataRowLoadingMode)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T]()
+   at Npgsql.NpgsqlDataReader.NextResultInternal()
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderInternal(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Com.Nidec.Mes.Framework.DefaultNpgCommandAdaptor.ExecuteReader(TransactionContext trxContext, DbParameterList parameterList) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultNpgCommandAdaptor.cs:line 63
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Dao.GetModelRangeDao.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Dao\OvenBarcodeDao\RangeDao\GetModelRangeDao.cs:line 30
+   at Com.Nidec.Mes.Common.Basic.MachineMaintenance.Cbm.GetModelRangeCbm.Execute(TransactionContext trxContext, ValueObject vo) in D:\GIT_HUB\NIDEC\COMMON\CommonBasicApplicationForNidecMES\MachineMaintenance\Cbm\OvenBarcodeCbm\RangeCbm\GetModelRangeCbm.cs:line 24
+   at Com.Nidec.Mes.Framework.DefaultCbmInvoker.Invoke(CbmController cbm, ValueObject vo, UserData userData, TransactionContextFactory trxFactory, String connectionString) in D:\GIT_HUB\NIDEC\fw\NidecMES\Framework\DefaultCbmInvoker.cs:line 117
+2018-12-26 09:03:32,875 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 09:03:32
+2018-12-26 09:06:03,471 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/26 09:06:03
+2018-12-26 09:06:29,125 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 09:06:29
+2018-12-26 09:07:08,270 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/26 09:07:08
+2018-12-26 09:08:03,534 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 09:08:03

@@ -59,27 +59,17 @@ namespace Com.Nidec.Mes.VCMS
             NCVC_Function_gr.Visible = false;
         }
         /// <summary>
-        /// NCVP Function Click
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void ncvp_btn_Click(object sender, EventArgs e)
-        {
-            NCVC_Function_gr.Visible = true;
-            SystemMaster_gpb.Visible = false;
-            NcvpMaster_gpb.Visible = false;
-        }
-        /// <summary>
         /// NCVC Function Click
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ncvc_btn_Click(object sender, EventArgs e)
         {
-            NCVC_Function_gr.Visible = false;
+            NCVC_Function_gr.Visible = true;
             SystemMaster_gpb.Visible = false;
             NcvpMaster_gpb.Visible = false;
         }
+
         /// <summary>
         /// DownTime button click
         /// </summary>
@@ -87,8 +77,16 @@ namespace Com.Nidec.Mes.VCMS
         /// <param name="e"></param>
         private void DownTime_bt_Click(object sender, EventArgs e)
         {
-            ReportDownTimeForm reportdowntimeform = new ReportDownTimeForm();
-            reportdowntimeform.ShowDialog();
+            //ReportDownTimeForm reportdowntimeform;
+            //if (reportdowntimeform == null || reportdowntimeform.IsDisposed)
+            //{
+            //    reportdowntimeform = new ReportDownTimeForm();
+            //    reportdowntimeform.MdiParent = this;
+            //}
+            new ReportDownTimeForm().ShowDialog();
+            //NCVC_Function_gr.Visible = false;
+            //SystemMaster_gpb.Visible = false;
+            //NcvpMaster_gpb.Visible = false;
         }
         /// <summary>
         /// Jig Repair Click
@@ -108,7 +106,7 @@ namespace Com.Nidec.Mes.VCMS
         private void DrawRegist_btn_Click(object sender, EventArgs e)
         {
             DrawForm drawform = new DrawForm();
-            drawform.Show();
+            drawform.ShowDialog();
         }
         /// <summary>
         /// Document Management Click
@@ -286,7 +284,7 @@ namespace Com.Nidec.Mes.VCMS
         private void Draw_btn_Click(object sender, EventArgs e)
         {
             DrawMasterForm draw = new DrawMasterForm();
-            draw.Show();
+            draw.ShowDialog();
         }
 
         private void Supplier_btn_Click(object sender, EventArgs e)
