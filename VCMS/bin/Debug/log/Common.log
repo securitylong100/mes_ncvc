@@ -1082,3 +1082,10 @@ Npgsql.PostgresException (0x80004005): 42P01: relation "t_ovenmachine" does not 
 2018-12-26 12:54:54,678 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 12:54:54
 2018-12-26 12:56:50,585 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2018/12/26 12:56:50
 2018-12-26 12:57:42,426 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2018/12/26 12:57:42
+2019-01-05 12:38:13,711 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 12:38:13
+2019-01-05 12:46:04,889 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 12:46:04
+2019-01-05 12:47:43,984 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 12:47:43
+2019-01-05 12:48:56,918 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 12:48:56
+2019-01-05 12:49:10,483 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 12:49:10
+2019-01-05 12:50:59,047 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 12:50:59
+2019-01-05 12:51:19,935 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 12:51:19
