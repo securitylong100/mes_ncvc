@@ -1089,3 +1089,12 @@ Npgsql.PostgresException (0x80004005): 42P01: relation "t_ovenmachine" does not 
 2019-01-05 12:49:10,483 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 12:49:10
 2019-01-05 12:50:59,047 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/05 12:50:59
 2019-01-05 12:51:19,935 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/05 12:51:19
+2019-01-11 08:26:55,909 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/11 08:26:55
+2019-01-11 08:27:09,130 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2019-01-11 08:28:07,189 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2019-01-11 08:28:14,299 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2019-01-11 08:28:24,726 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2019-01-11 08:28:28,871 INFO  [Com.Nidec.Mes.Common.Basic.MachineMaintenance.Form.ProductionControllerNCVCForm] [mmci00006]No data found!
+2019-01-11 08:31:37,485 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/11 08:31:37
+2019-01-11 08:31:38,912 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. Start : 2019/01/11 08:31:38
+2019-01-11 08:34:20,590 INFO  [Com.Nidec.Mes.Framework.Login.LoginForm] [llce00001]Login Click. End : 2019/01/11 08:34:20
